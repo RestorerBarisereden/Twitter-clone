@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="stylesheet" href="twitter-homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="first-box">
+
+            <div class="up-part">
+                <div class="header">
+                    <i class="bi bi-twitter-x" id="laptop"></i>
+                </div>
+                <div class="header-opt">
+                    <div class="header-option"><i class="bi bi-house-door-fill" id="phone"></i><span><h3><b>Home</b></h3></span></div>
+                    <div class="header-option"><i class="bi bi-search" id="phone"></i><span><p>Explore</p></span></div>
+                    <div class="header-option"><i class="bi bi-bell" id="phone"></i><span><p>Notifications</p></span></div>
+                    <div class="header-option"><i class="bi bi-envelope" id="phone"></i><span><p>Messages</p></span></div>
+                    <div class="header-option"><i class="bi bi-slash-square" id="phone"></i><span><p>Grok</p></span></div>
+                    <div class="header-option"><i class="bi bi-card-checklist" id="laptop"></i><span><p>Lists</p></span></div>
+                    <div class="header-option"><i class="bi bi-bookmark" id="laptop"></i><span><p>Bookmarks</p></span></div>
+                    <div class="header-option"><i class="bi bi-people" id="laptop"></i><span><p>Communities</p></span></div>
+                    <div class="header-option"><i class="bi bi-twitter-x" id="laptop"></i><span><p>Premium</p></span></div>
+                    <div class="header-option"><i class="bi bi-person" id="laptop"></i><span><p>Profile</p></span></div>
+                    <div class="header-option"><i class="bi bi-three-dots" id="laptop"></i><span><p>More</p></span></div>
+                    <button><i class="bi bi-plus"></i><b>Post</b></button>
+                </div>
+            </div>
+
+            <div class="account" id="laptop">
+                <div class="acc-img"><i class="bi bi-person-circle"></i></div>
+                <div class="acc-name">
+                    <h6><b>Restorer Barisereden</b></h6>
+                    <p>@RestorerB18293</p>
+                </div>
+                <div class="acc-icon"><i class="bi bi-three-dots"></i></div>
+            </div>
+        </div>
+
+        <div class="second-box">
+            <div class="fyp">
+                <h5 id="for-u">For you</h5>
+                <h5>Following</h5>
+                <i class="bi bi-gear"></i>
+            </div>
+
+            <div class="create">
+                <div class="happening">
+                    <div class="up-part-hap">
+                        <i class="bi bi-person-circle"></i>
+                        <input type="text" placeholder="What is happening?!">
+                    </div>
+                    <div class="down-part">
+                        <i class="bi bi-image"></i>
+                        <i class="bi bi-filetype-gif"></i>
+                        <i class="bi bi-hdd-rack"></i>
+                        <i class="bi bi-emoji-smile"></i>
+                        <i class="bi bi-calendar-check"></i>
+                        <i class="bi bi-geo-alt"></i>
+                        <button><b>Post</b></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notify">
+                <p>Show 105 posts</p>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="data:image/jpeg;base64,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" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>DAVIDO</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@DavidoStory.3h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Davido palns on releasing a new album next months</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="data:image/jpeg;base64,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" alt="" width="90%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>2.3k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>1.5k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>25k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>10.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/BOD.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>B.O.D</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@BOD Memes .1day ago</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Aunty try dey calm down oo</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/twit-post1.png" alt="" width="400px" height="400px">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>2.2k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>1k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>12.3k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>9k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/brainjotter.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Brain Jotter</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@Chukwuebuka.5h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Receives an award for the best comedian of the year</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/brainjotter2.png" alt="" width="80%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>12.6k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>3k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>18.8k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>11.5k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/salvation logo.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Salvation Ministries</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@SalvationMinistries.5h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Online Morning devotion, every Monday to Saturday by 7am</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/salvation.png" alt="" width="80%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>3k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>1.1k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>1.8k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>3.5k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/burna pic.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Burna Boy</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@BurnaBoy.8h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Burna Boy hosts another show in London</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/burna show.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>5.1k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>12k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>24.3k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>12.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/drawing logo.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Emmanuel_draws</h6>
+                            <p>@DEmmanuel_drawing.3h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Drawing all followers till i get to 10k</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/drwaing.png" alt="" width="90%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>1k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>500</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>11k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>5.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/chelsea logo.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Chelsea FC</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@ChelseaFC.3h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>News on Chelsea Latest Injuries</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/chelsea.png" alt="" width="80%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>20k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>2.8k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>35k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>40.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/_TZ09521.jpg" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Restorer Barisereden</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@Rboy_Doc.1day ago</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Restorer a Student of Aptech cloned Twitter</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/WhatsApp Image 2024-02-21 at 12.31.27 PM.jpeg" alt="" width="70%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>6.2k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>1.8k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>15k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>8.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/tecno logo.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>TECNO</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@TECNO.7h</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Check out our new launch, Tecno Spark 20 pro</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/tecno brand.png" alt="" width="70%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>2.5k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>1k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>1.1k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>1.3k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uploads">
+                <div class="upload-header">
+                    <div class="profile-pic">
+                        <img src="pictures/chelsea logo.png" alt="" width="50px" height="50px">
+                    </div>
+                    <div class="acc-profile">
+                        <div class="profile-name">
+                            <h6>Chelsea FC</h6>
+                            <i class="bi bi-patch-check-fill"></i>
+                            <p>@ChelseaFC .1 day</p>
+                        </div>
+                        <div class="post-title">
+                            <p>Chealsea gets victory in their last three games</p>
+                        </div>
+                    </div>
+                    <div class="profile-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="upload-image">
+                    <img src="pictures/chelsea celeb.png" alt="" width="90%" height="100%">
+                </div>
+                <div class="comment">
+                    <div class="react-icon">
+                        <div class="react"><i class="bi bi-chat"></i>12.2k</div>
+                        <div class="react"><i class="bi bi-repeat"></i>3.8k</div>
+                        <div class="react"><i id="heart" class="bi bi-heart-fill"></i>35k</div>
+                        <div class="react"><i class="bi bi-reception-3"></i>5.9k</div>
+                    </div>
+                    <div class="react-end-icon">
+                    <div class="react-end"><i class="bi bi-bookmark"></i></div>
+                    <div class="react-end"><i class="bi bi-box-arrow-up"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="third-box">
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="subscribe">
+                <h3>Subscribe to Premium</h3>
+                <p>Subscribe to unlock new feautures and if eligible, receive a share of ads revenue.</p>
+                <button><b>Subscribe</b></button>
+            </div>
+
+            <div class="Trends">
+                <div class="trends-hd">
+                    <h3>Trends for you</h3>
+                </div>
+                <div class="trends-list">
+                    <p>Music.Trending</p>
+                    <h5>Wizkid</h5>
+                    <p>42.8k posts</p>
+                </div>
+                <div class="trends-list">
+                    <h5>#AirtelUnlimitedData</h5>
+                    <p>Stay conneceted with Airtel's Unlimited data bundles</p>
+                    <p id="airtel">Promoted by Airtel Nigeria</p>
+                </div>
+                <div class="trends-list">
+                    <p>Music.Trending</p>
+                    <h5>Buju</h5>
+                    <p>23k posts</p>
+                </div>
+                <div class="trends-list">
+                    <p>Music.Trending</p>
+                    <h5>Bnxn</h5>
+                    <p>30.5k posts</p>
+                </div>
+                <div class="trends-list">
+                    <p>Music.Trending</p>
+                    <h5>30bg</h5>
+                    <p>50k posts</p>
+                </div>
+                <div class="trends-list">
+                    <p>Music.Trending</p>
+                    <h5>Omay lay</h5>
+                    <p>41.5k posts</p>
+                </div>
+                <div class="trends-list">
+                    <p>Trending in Nigeria</p>
+                    <h5>Pidgin and English</h5>
+                    <p>30.2k posts</p>
+                </div>
+                <div class="trends-list">
+                    <p>Sports</p>
+                    <h5>Premier league</h5>
+                    <p>60.3k posts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
